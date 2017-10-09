@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/menu_top"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/introduction"
+            android:icon="@drawable/ic_chat_bubble"
+            android:title="Introduction" />
+        <item
+            android:id="@+id/concept_1"
+            android:icon="@drawable/ic_menu_done"
+            android:title="Existing Dial-Pad" />
+        <item
+            android:id="@+id/concept_2"
+            android:icon="@drawable/ic_menu_done"
+            android:title="Concept-1" />
+        <item
+            android:id="@+id/concept_3"
+            android:icon="@drawable/ic_menu_done"
+            android:title="Concept-2" />
+        <item
+            android:id="@+id/concept_4"
+            android:icon="@drawable/ic_menu_done"
+            android:title="Concept-3" />
+        <item
+            android:id="@+id/concept_5"
+            android:icon="@drawable/ic_menu_done"
+            android:title="Concept-4" />
+        <item
+            android:id="@+id/concept_6"
+            android:icon="@drawable/ic_menu_done"
+            android:title="Concept-5" />
+    </group>
+    <group
+        android:id="@+id/menu_bottom"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/submit_btn"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Submit Data" />
+
+    </group>
+
+</menu>
